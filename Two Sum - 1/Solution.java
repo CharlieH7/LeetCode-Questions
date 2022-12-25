@@ -1,5 +1,7 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+        // iterate over the array and check the first element against the following one 
+        // if the target number minus the first element is equal to the next elements then return its index
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if (nums[j] == target - nums[i]) {
