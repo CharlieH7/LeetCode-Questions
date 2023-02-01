@@ -1,3 +1,4 @@
+<h1>2283 - Check if Number has equal digit count and digit value</h1>
 You are given a 0-indexed string num of length n consisting of digits.
 
 Return true if for every index i in the range 0 <= i < n, the digit i occurs num[i] times in num, otherwise return false.
