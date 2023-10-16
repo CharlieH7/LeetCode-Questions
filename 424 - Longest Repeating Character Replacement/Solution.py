@@ -7,7 +7,7 @@ class Solution:
         # Pointer to the left end of the current window
         left = 0
         # Variable to keep track of the character with maximum frequency in the current window
-
+        maxf = 0
         # Traverse through the string with the right pointer
         for right in range(len(s)):
             # Update the count of the character at the current position of the right pointer
